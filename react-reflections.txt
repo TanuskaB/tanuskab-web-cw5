@@ -1,0 +1,41 @@
+REACT REFLECTION RESPONSES
+CW-05 - JavaScript - React
+Date: 4/16/2026
+
+
+1. Component Design & Reusability
+==============================
+
+Breaking the UI into smaller components like HelloWorld, Counter, List, and FilteredList makes the code more reusable and easier to maintain. Each component has a specific purpose, so it can be reused in different parts of the application or even in other projects. For example, the List component can display any kind of data, and the Counter can be used wherever a counting feature is needed. This separation also makes debugging easier because you can focus on one component at a time. Overall, using smaller components keeps the code organized and flexible.
+
+
+
+2. State vs Props in UI Management
+===============================
+
+In React, state is data that a component owns and manages itself, while props are data passed down from a parent component and cannot be changed by the child. When we call setState(), React updates the component’s state and automatically triggers a re-render so the UI reflects the new data. We must use setState() instead of modifying this.statedirectly because React needs to know when changes happen in order to update the screen correctly. State is controlled by the component itself, but props are controlled by the parent component that passes them down. Child components cannot modify props; they can only use them.
+
+
+
+3. Asset Organization & Scalability
+================================
+
+If the project grew to 50 components, I would organize the files into separate folders based on feature or purpose. For example, related components like Counter, List, and FilteredList could go into a “components” folder, and each feature could even have its own subfolder. Utility functions would go in a separate “utils” or “helpers” folder so they can be reused easily across the app. Shared CSS styles, images, and assets would be stored in an “assets” or “styles” folder, while tests would be placed either next to each component or in a dedicated “tests” folder. I would also use clear naming conventions like PascalCase for components and camelCase for functions to keep everything consistent and easy to find.
+
+
+
+4. DOM vs React's Virtual DOM
+==========================
+
+React uses a Virtual DOM to update the UI more efficiently compared to traditional JavaScript methods like document.getElementById, which directly change the real DOM. In a counter example, the value might update many times, and React batches these updates so it only changes what is necessary, improving performance. If you manually manipulate the DOM while React is managing it, it can cause inconsistencies because React may overwrite your changes when it re-renders. React’s declarative approach is easier to understand because you simply describe what the UI should look like for a given state, instead of manually updating each element step by step. This makes the code more predictable, easier to debug, and less error-prone.
+
+
+
+5. UI/UX Decisions for Learning & Accessibility
+============================================
+
+To improve the UI/UX of the FilteredList for users with disabilities, dropdowns and input fields should be accessible to screen readers through proper labels and ARIA attributes. Clear visual feedback, such as showing which filters are active or highlighting matching results, helps users understand what is currently being applied. Keyboard navigation is also important for people who cannot use a mouse. For users with different technical backgrounds, a simple and clearly labeled interface reduces confusion and makes the component easier to use. The learning curve for new React developers can still be challenging because concepts like state, props, and the Virtual DOM are more abstract and require understanding how React updates the UI behind the scenes.
+
+
+---
+End of Document

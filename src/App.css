@@ -1,0 +1,22 @@
+.App {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+}
+
+.counter {
+    margin: 1rem 0;
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+input {
+    margin-right: 0.75rem;
+    padding: 0.5rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}

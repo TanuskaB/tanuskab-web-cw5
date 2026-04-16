@@ -1,0 +1,48 @@
+REACT ASSIGNMENT CHECKLIST
+============================
+
+□ HelloWorld Component
+   ☐ Display "Hello World!" text
+   ☐ Use proper JSX syntax
+   ☐ Export component properly
+
+□ Counter Component
+   ☐ Initialize state with count: 5
+   ☐ Implement incrementCount() with setState()
+   ☐ Display count value in render
+   ☐ Create button with onClick handler
+
+□ List Component
+   ☐ Understand how props work
+   ☐ Review map() usage
+   ☐ Verify key prop usage
+
+□ FilteredList Component
+   ☐ Add "type" state variable
+   ☐ Implement onFilter() method
+   ☐ Update filterItem() for type filtering
+   ☐ Add DropdownButton with MenuItems
+
+□ App.js Integration
+   ☐ Create produce list array
+   ☐ Import all components
+   ☐ Render HelloWorld component
+   ☐ Render Counter component
+   ☐ Render FilteredList with items prop
+
+□ Testing
+   ☐ Application runs without errors
+   ☐ Counter increments properly
+   ☐ Search filter works
+   ☐ Dropdown filter works
+   ☐ Combined search + type filter works
+
+□ Reflection Questions
+   ☐ Component Design & Reusability
+   ☐ State vs Props
+   ☐ Asset Organization
+   ☐ DOM vs Virtual DOM
+   ☐ UI/UX Decisions
+
+SUBMISSION URL:
+_______________________________
