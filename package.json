@@ -1,6 +1,6 @@
 {
   "name": "tanuskab-web-cw5",
-  "homepage": "https://TanuskaB.io/tanuskab-web-cw5",
+  "homepage": "https://TanuskaB.github.io/tanuskab-web-cw5",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "react-scripts": "^0.0.0"
   }
 }
