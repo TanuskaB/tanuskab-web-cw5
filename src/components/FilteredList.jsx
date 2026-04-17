@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { DropdownButton, MenuItem } from 'react-bootstrap';
 
 class ProduceList extends Component {
     constructor(props) {
@@ -37,20 +36,21 @@ class ProduceList extends Component {
                 <input
                     type="text"
                     placeholder="Search..."
+                    value={this.state.search}
                     onChange={this.onSearch}
                 />
 
-                <DropdownButton title="Filter" onSelect={this.onFilter}>
-                    <MenuItem eventKey="All">All</MenuItem>
-                    <MenuItem eventKey="Fruit">Fruit</MenuItem>
-                    <MenuItem eventKey="Vegetable">Vegetables</MenuItem>
-                </DropdownButton>
+                <select value={this.state.type} onChange={(e) => this.onFilter(e.target.value)}>
+                    <option value="All">All</option>
+                    <option value="Fruit">Fruit</option>
+                    <option value="Vegetable">Vegetable</option>
+                </select>
 
                 <ul>
                     {items
                         .filter(this.filterItem)
-                        .map((item, index) => (
-                            <li key={index}>
+                        .map((item) => (
+                            <li key={`${item.name}-${item.type}`}>
                                 {item.name} ({item.type})
                             </li>
                         ))}
