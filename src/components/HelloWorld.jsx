@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 
 class HelloWorld extends Component {
     render() {
-        <p className="eyebrow">Objective 1</p>
-        return <h1>Hello World!</h1>;
+        return (
+            <div className="section-heading">
+                <p className="eyebrow">Objective 1</p>
+                <h1>Hello World!</h1>
+            </div>
+        );
     }
 }
 
