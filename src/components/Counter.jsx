@@ -34,12 +34,8 @@ class Counter extends Component {
         return (
             <section className="panel feature-card counter-card" aria-labelledby="counter-title">
                 <div className="section-heading">
-                    <p className="eyebrow">Objective 1</p>
-                    <h2 id="counter-title">Emphasize the primary action</h2>
-                    <p className="section-copy">
-                        Large type, strong spacing, and clear button contrast make the current
-                        value and next action obvious at a glance.
-                    </p>
+                    <p className="eyebrow">Objective 3</p>
+                    <h2 id="counter-title">Interactive counter</h2>
                 </div>
 
                 <div className={`counter-display ${toneClass}`}>

@@ -36,11 +36,7 @@ class ProduceList extends Component {
             <section className="panel feature-card" aria-labelledby="filter-title">
                 <div className="section-heading">
                     <p className="eyebrow">Objective 2</p>
-                    <h2 id="filter-title">Keep patterns consistent across controls</h2>
-                    <p className="section-copy">
-                        Inputs, labels, spacing, and surfaces all reuse the same tokens so the
-                        interface feels like one system instead of a set of separate parts.
-                    </p>
+                    <h2 id="filter-title">Filter and search a list</h2>
                 </div>
 
                 <div className="filter-toolbar">
